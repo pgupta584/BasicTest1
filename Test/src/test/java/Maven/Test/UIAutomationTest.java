@@ -13,4 +13,9 @@ public class UIAutomationTest {
 	{
 		System.out.println("InValid Login");
 	}
+	@Test
+	public void Incorrectlogin()
+	{
+		System.out.println("InValid Login");
+	}
 }
