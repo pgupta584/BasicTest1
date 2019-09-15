@@ -8,7 +8,7 @@ public class BasicTest
 	@Test
 	public void Test1()
 	{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.home")+"/Test/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.home")+"/BasicTest1/Test/Drivers/chromedriver");
 		ChromeDriver driver=new ChromeDriver();
         driver.get("https://www.facebook.com/");
         driver.close();
